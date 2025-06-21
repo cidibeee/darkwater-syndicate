@@ -3,17 +3,20 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import { Image } from 'astro:assets';
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="de">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 	</head>
 	<body>
 		<Header />
 		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
+			<h3 style="text-align: center;">Welcome to </h3>
+			<h1 style="text-align: center;">Darkwater Syndicate!</h1>
+			<Image src="/darkwater-syndicate//Darkwater_Syndicate_Logo_Logo_transparent.svg" alt="Darkwater Logo" width="400" height="400" loading="eager" style="display: block; margin-left: auto; margin-right: auto;"/>
 			<p>
 				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
 				template serves as a lightweight, minimally-styled starting point for anyone looking to build
