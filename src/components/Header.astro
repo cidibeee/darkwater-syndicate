@@ -5,13 +5,15 @@ import { SITE_TITLE } from '../consts';
 
 <header>
 	<nav>
+		<div class="nav-left">
 		<h2><a href="/">{SITE_TITLE}</a></h2>
-		<div class="internal-links">
-			<HeaderLink href="/">Home</HeaderLink>
-			<HeaderLink href="/blog">Blog</HeaderLink>
-			<HeaderLink href="/about">About</HeaderLink>
-		</div>
-		<div class="social-links">
+	</div>
+	<div class="nav-center internal-links">
+		<HeaderLink href="/">Home</HeaderLink>
+		<HeaderLink href="/blog">Blog</HeaderLink>
+		<HeaderLink href="/about">About</HeaderLink>
+	</div>
+	<div class="nav-right social-links">
 			<a href="https://www.instagram.com/darkwatersyndicate" target="_blank">
 				<span class="sr-only">Follow us on Instagram</span>
 				<svg viewBox="0 0 24 24" aria-hidden="true" width="32" height="32"
@@ -52,7 +54,28 @@ import { SITE_TITLE } from '../consts';
 	nav {
 		display: flex;
 		align-items: center;
+		justify-content: space-between;
+		padding: 1rem;
+		flex-wrap: wrap;
+	}
+
+	.nav-left {
+		flex: 1;
+		text-align: left;
+	}
+
+	.nav-center {
+		flex: 1;
+		display: flex;
 		justify-content: center;
+		gap: 1.5rem;
+	}
+
+	.nav-right {
+		flex: 1;
+		display: flex;
+		justify-content: flex-end;
+		gap: 1rem;
 	}
 	nav a {
 		padding: 1em 0.5em;
