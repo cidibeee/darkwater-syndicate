@@ -5,7 +5,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://cidibeee.github.io/darkwater-syndicate/',
-	base: '/darkwater-syndicate/',
+	site: 'https://darkwater-syndicate.de',
+	base: '/',
 	integrations: [mdx(), sitemap()],
 });
