@@ -53,9 +53,9 @@ body {
 	background-size: 100% 600px;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
-	color: rgb(220, 230, 245);
 	font-size: 20px;
 	line-height: 1.7;
+	color: rgb(220, 230, 245);
 }
 main {
 	width: 720px;
@@ -150,6 +150,7 @@ blockquote {
 hr {
 	border: none;
 	border-top: 1px solid rgb(var(--gray-light));
+	color: rgb(220, 230, 245);
 }
 @media (max-width: 720px) {
 	body {
