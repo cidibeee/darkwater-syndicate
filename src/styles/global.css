@@ -59,6 +59,8 @@ main {
 	max-width: calc(100% - 2em);
 	margin: auto;
 	padding: 3em 1em;
+	color: rgb(220, 230, 245);
+
 }
 h1,
 h2,
@@ -67,7 +69,7 @@ h4,
 h5,
 h6 {
 	margin: 0 0 0.5rem 0;
-	color: rgb(var(--black));
+	color: rgb(220, 230, 245);
 	line-height: 1.2;
 }
 h1 {
