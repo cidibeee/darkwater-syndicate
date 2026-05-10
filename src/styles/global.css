@@ -112,6 +112,7 @@ p {
 }
 .prose p {
 	margin-bottom: 2em;
+	color: rgb(220, 230, 245);
 }
 textarea {
 	width: 100%;
@@ -155,9 +156,11 @@ hr {
 @media (max-width: 720px) {
 	body {
 		font-size: 18px;
+		color: rgb(220, 230, 245);
 	}
 	main {
 		padding: 1em;
+		color: rgb(220, 230, 245);
 	}
 }
 
