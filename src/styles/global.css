@@ -23,6 +23,7 @@
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
+	color: rgb(220, 230, 245);
 }
 @font-face {
 	font-family: 'Atkinson';
@@ -30,6 +31,7 @@
 	font-weight: 700;
 	font-style: normal;
 	font-display: swap;
+	color: rgb(220, 230, 245);
 }
 /* alfa-slab-one-regular - latin */
 @font-face {
@@ -38,6 +40,7 @@
 	font-weight: 400;
 	font-style: normal;
   	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	color: rgb(220, 230, 245);
 }
 
 body {
