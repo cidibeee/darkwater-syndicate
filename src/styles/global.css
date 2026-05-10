@@ -92,7 +92,7 @@ b {
 	font-weight: 700;
 }
 a {
-	color: var(--accent);
+	color: rgb(220, 230, 245);
 }
 a:hover {
 	color: var(--accent);
