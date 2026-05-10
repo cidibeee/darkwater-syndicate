@@ -98,6 +98,7 @@ h5 {
 strong,
 b {
 	font-weight: 700;
+	color: rgb(220, 230, 245);
 }
 a {
 	color: rgb(220, 230, 245);
@@ -115,6 +116,7 @@ p {
 textarea {
 	width: 100%;
 	font-size: 16px;
+	color: rgb(220, 230, 245);
 }
 input {
 	font-size: 16px;
