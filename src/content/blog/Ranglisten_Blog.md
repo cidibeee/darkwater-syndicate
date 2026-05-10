@@ -22,12 +22,36 @@ Im Mittelpunkt stehen Disziplin, Teamgeist und die Motivation, die eigenen Fähi
 
 Denn am Ende definiert nicht ein Patch die Qualität eines Tauchers – sondern Erfahrung, Haltung und die Bereitschaft, ständig dazuzulernen.
 
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; justify-items: center;">
-    <Image src="/Images/Patch_Rang0.png" alt="Rang0" width="250" height="250" loading="eager" />
-    <Image src="/Images/Patch_Rang1.png" alt="Rang1" width="250" height="250" loading="eager" />
-    <Image src="/Images/Patch_Rang2.png" alt="Rang2" width="250" height="250" loading="eager" />
-    <Image src="/Images/Patch_Rang3.png" alt="Rang3" width="250" height="250" loading="eager" />
-    <Image src="/Images/Patch_Rang4.png" alt="Rang4" width="250" height="250" loading="eager" />
-    <Image src="/Images/Patch_Rang5.png" alt="Rang5" width="250" height="250" loading="eager" />
-    <Image src="/Images/Patch_Rang6.png" alt="Rang6" width="250" height="250" loading="eager" />
-    <Image src="/Images/Patch_Rang7.png" alt="Rang7" width="250" height="250" loading="eager" />
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; justify-items: center;">
+    <div>
+        <Image src="/Images/Patch_Rang0.png" alt="Rang0" width="250" height="250" loading="eager" />
+        <p>Rang 01 - Surfacewalker</p>
+    </div>
+    <div>
+        <Image src="/Images/Patch_Rang1.png" alt="Rang1" width="250" height="250" loading="eager" />
+        <p>Rang 02 - Descender</p>
+    </div>
+    <div>
+        <Image src="/Images/Patch_Rang2.png" alt="Rang2" width="250" height="250" loading="eager" />
+        <p>Rang 03 - Deep Rover</p>
+    </div>
+    <div>
+        <Image src="/Images/Patch_Rang3.png" alt="Rang3" width="250" height="250" loading="eager" />
+        <p>Rang 04 - Abyss Operator</p>
+    </div>
+    <div>
+        <Image src="/Images/Patch_Rang4.png" alt="Rang4" width="250" height="250" loading="eager" />
+        <p>Rang 05 - Senior Abyss Operator</p>
+    </div>
+    <div>
+        <Image src="/Images/Patch_Rang5.png" alt="Rang5" width="250" height="250" loading="eager" />
+        <p>Rang 06 - Senior Abyss Operator - Trimix</p>
+    </div>
+    <div>
+        <Image src="/Images/Patch_Rang6.png" alt="Rang5" width="250" height="250" loading="eager" />
+        <p>Authority 01 - Blackwater Wareden</p>
+    </div>
+    <div>
+        <Image src="/Images/Patch_Rang7.png" alt="Rang5" width="250" height="250" loading="eager" />
+        <p>Authority 02 - Syndicate Commander</p>
+    </div>
