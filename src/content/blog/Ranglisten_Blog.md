@@ -2,7 +2,7 @@
 
 title: 'Struktur statt Wettbewerb – Der Gedanke hinter dem Darkwater Syndicate'
 
-description: ''
+description: 'Das ist das Ranglisten System'
 
 pubDate: 'May 10 2026'
 
