@@ -22,12 +22,12 @@ Im Mittelpunkt stehen Disziplin, Teamgeist und die Motivation, die eigenen Fähi
 
 Denn am Ende definiert nicht ein Patch die Qualität eines Tauchers – sondern Erfahrung, Haltung und die Bereitschaft, ständig dazuzulernen.
 
-
-<Image src="/Images/Patch_Rang0.png" alt="Rang0" width="720" height="720" loading="eager" style="display: block; margin-left: auto; margin-right: auto;"/>
-<Image src="/Images/Patch_Rang1.png" alt="Rang1" width="720" height="720" loading="eager" style="display: block; margin-left: auto; margin-right: auto;"/>
-<Image src="/Images/Patch_Rang2.png" alt="Rang2" width="720" height="720" loading="eager" style="display: block; margin-left: auto; margin-right: auto;"/>
-<Image src="/Images/Patch_Rang3.png" alt="Rang3" width="720" height="720" loading="eager" style="display: block; margin-left: auto; margin-right: auto;"/>
-<Image src="/Images/Patch_Rang4.png" alt="Rang4" width="720" height="720" loading="eager" style="display: block; margin-left: auto; margin-right: auto;"/>
-<Image src="/Images/Patch_Rang5.png" alt="Rang5" width="720" height="720" loading="eager" style="display: block; margin-left: auto; margin-right: auto;"/>
-<Image src="/Images/Patch_Rang6.png" alt="Rang6" width="720" height="720" loading="eager" style="display: block; margin-left: auto; margin-right: auto;"/>
-<Image src="/Images/Patch_Rang7.png" alt="Rang7" width="720" height="720" loading="eager" style="display: block; margin-left: auto; margin-right: auto;"/>
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; justify-items: center;">
+    <Image src="/Images/Patch_Rang0.png" alt="Rang0" width="250" height="250" loading="eager" />
+    <Image src="/Images/Patch_Rang1.png" alt="Rang1" width="250" height="250" loading="eager" />
+    <Image src="/Images/Patch_Rang2.png" alt="Rang2" width="250" height="250" loading="eager" />
+    <Image src="/Images/Patch_Rang3.png" alt="Rang3" width="250" height="250" loading="eager" />
+    <Image src="/Images/Patch_Rang4.png" alt="Rang4" width="250" height="250" loading="eager" />
+    <Image src="/Images/Patch_Rang5.png" alt="Rang5" width="250" height="250" loading="eager" />
+    <Image src="/Images/Patch_Rang6.png" alt="Rang6" width="250" height="250" loading="eager" />
+    <Image src="/Images/Patch_Rang7.png" alt="Rang7" width="250" height="250" loading="eager" />
