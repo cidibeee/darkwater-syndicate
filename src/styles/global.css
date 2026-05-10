@@ -46,11 +46,11 @@ body {
 	padding: 0;
 	text-align: left;
 	/*background: linear-gradient(var(--gray-gradient)) no-repeat;*/
-	background-color: black;
+	background-color: rgb(15, 18, 28);
 	background-size: 100% 600px;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
-	color: rgb(var(--gray-dark));
+	color: rgb(220, 230, 245);
 	font-size: 20px;
 	line-height: 1.7;
 }
