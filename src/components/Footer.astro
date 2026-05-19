@@ -23,7 +23,11 @@ const today = new Date();
 					></path></svg
 				>
 			</a>
-		</div>
+	</div>
+	<div class="legal">
+		<a href="/impressum">Impressum</a>
+		<a href="/datenschutzerklaerung">Datenschutzerklärung</a>
+	</div>
 </footer>
 <style>
 	footer {
@@ -44,6 +48,17 @@ const today = new Date();
 		color: rgb(var(--gray));
 	}
 	.social-links a:hover {
+		color: rgb(var(--gray-dark));
+	}
+	.legal
+	{
+		display: flex;
+		flex-direction: column;
+		gap: 0,0.5rem;
+		color: rgb(220, 230, 245);
+	}
+	.legal a:hover
+	{
 		color: rgb(var(--gray-dark));
 	}
 </style>

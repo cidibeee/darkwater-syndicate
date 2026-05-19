@@ -2,12 +2,12 @@
 import { defineConfig } from 'astro/config';
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
-//import netlify from '@astrojs/netlify';
+import netlify from '@astrojs/netlify';
 
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://darkwater-syndicate.de',
 	base: '/',
 	integrations: [mdx(), sitemap()],
-	//adapter: netlify(),
+	adapter: netlify(),
 });

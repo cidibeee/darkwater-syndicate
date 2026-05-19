@@ -104,7 +104,7 @@ a {
 	color: rgb(220, 230, 245);
 }
 a:hover {
-	color: var(--accent);
+	color: var(--gray-dark);
 }
 p {
 	margin-bottom: 1em;
