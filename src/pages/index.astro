@@ -21,3 +21,11 @@ import { Image } from 'astro:assets';
 		<Footer />
 	</body>
 </html>
+
+
+
+<script>
+	if (document.cookie.includes("CaveCookie=true"))
+		console.log("Welcome Back, Diver!");
+	document.cookie = "CaveCookie=true; value=true; path=/; max-age=31536000"
+</script>
