@@ -36,6 +36,11 @@
 
             function berechnen()
             {
+                if(document.getElementById("LVO").value == "" || document.getElementById("Tanksize").value == "")
+                {
+                    alert("Bitte alle Felder ausfüllen!");
+                    return;
+                }
                 const lvo = document.getElementById("LVO").value;
                 const tanksize = document.getElementById("Tanksize").value;
                 document.getElementById("ergebnis").innerText = (lvo * tanksize).toFixed(2);
@@ -43,6 +48,11 @@
 
             function calcAMV()
             {
+                if(document.getElementById("VerbrauchteBar").value == "" || document.getElementById("MittlereTiefe").value == "" || document.getElementById("Flaschengröße").value == "" || document.getElementById("Zeit").value == "")
+                {
+                    alert("Bitte alle Felder ausfüllen!");
+                    return;
+                }
                 const verbrauch = document.getElementById("VerbrauchteBar").value;
                 const tiefe = document.getElementById("MittlereTiefe").value;
                 const flaschengröße = document.getElementById("Flaschengröße").value;
