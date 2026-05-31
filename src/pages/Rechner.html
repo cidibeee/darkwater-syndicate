@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Rechner</title>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    </head>
+    <body>
+        <h1>Rechner</h1>
+        <h4>LVO to AMV</h4>
+        <label for="LVO">Bitte LVO eingeben</label> 
+        <input type="number" id="LVO" name="LVO">
+        <label for="Tanksize">Flaschengröße eingeben</label>
+        <input type="number" id="Tanksize" name="Tanksize">
+        <button onclick="berechnen()">Berechnen</button>
+        <p id="ergebnis">Hier ist das Ergebnis</p>
+        <br>
+        <h4>Verbrauchte Bar to AMV</h4>
+        <pre>
+    <label for="Verbrauchte Bar">Bitte verbrauchte Bar eingeben</label>     <label for="Mittlere Tiefe">Bitte mittlere Tiefe eingeben</label>   <label for="Flaschengröße">Bitte Flaschengröße eingeben</label>     <label for="Zeit">Bitte Zeit eingeben</label>
+
+        </pre>
+        
+        <br>
+        <pre>
+    <input type="number" id="VerbrauchteBar" name="VerbrauchteBar">              <input type="number" id="MittlereTiefe" name="MittlereTiefe">              <input type="number" id="Flaschengröße" name="Flaschengröße">              <input type="number" id="Zeit" name="Zeit">
+        </pre>
+        <h1>=</h1>
+        <button onclick="calcAMV()">Berechnen</button>
+        <p id="AMVerg">Erg AMV</p>
+        <script>
+            // JavaScript code for the calculator functionality
+            'use strict';
+            alert('Das ist eine Experimentelle Seite mit Berechnungen die nach dem Tauchen Relevant sein könnten. Alle Angaben sind ohne Gewähr, und ' +  
+            'alle Ergebnisse sollten mit Vorsicht genossen werden und von einem Dedizierten Tool geprüft werden.');
+
+
+            function berechnen()
+            {
+                const lvo = document.getElementById("LVO").value;
+                const tanksize = document.getElementById("Tanksize").value;
+                document.getElementById("ergebnis").innerText = (lvo * tanksize).toFixed(2);
+            }
+
+            function calcAMV()
+            {
+                const verbrauch = document.getElementById("VerbrauchteBar").value;
+                const tiefe = document.getElementById("MittlereTiefe").value;
+                const flaschengröße = document.getElementById("Flaschengröße").value;
+                const zeit = document.getElementById("Zeit").value;
+
+
+                const erg = (verbrauch * flaschengröße) / zeit / (tiefe / 10 + 1);
+                document.getElementById("AMVerg").innerText = erg.toFixed(2);
+            }
+        </script>
+    </body>
+    <style>
+        body
+        {
+            background-color: rgb(15, 18, 28);
+            color: rgb(220, 230, 245);
+        }
+        input
+        {
+            background-color: rgb(220, 230, 245);
+            color: rgb(15, 18, 28);
+        }
+        button
+        {
+            background-color: rgb(220, 230, 245);
+            color: rgb(15, 18, 28);
+        }
+    </style>
+</html>
